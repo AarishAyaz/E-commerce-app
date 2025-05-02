@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
             <Header />
-      <main >
+      <main classname="min-h-screen px-2 py-6 bg-gray-50" >
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<ProductList />}/>
